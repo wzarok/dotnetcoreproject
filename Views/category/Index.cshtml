@@ -1,0 +1,27 @@
+﻿@using ent.concrate
+@model List<category>
+
+
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>KATEGORİ ADI</th>
+        <th>DURUM</th>
+        <th>DETAYLAR</th>
+        <th>SİL</th>
+    </tr>
+    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.categoryid</td>
+                    <td>@item.catname</td>
+                    <td>@item.catstatus</td>
+                    <td><a href="#" class="btn btn-warning">Detaylar</a></td>
+                    <td><a href="#" class="btn btn-danger">Sil</a></td>
+                </tr>
+            }
+</table>
