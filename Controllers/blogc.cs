@@ -16,5 +16,10 @@ namespace COREDEMO.Controllers
             var values = bm.GetBlogListWithCategory();
             return View(values);
         }
+        public IActionResult blogreadall(int id)
+        {
+            var values = bm.GetBlogById(id);
+            return View(values);
+        }
     }
 }

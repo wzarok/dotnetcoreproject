@@ -155,3 +155,6 @@ C:\Users\serha\source\repos\COREDEMO\obj\Debug\net5.0\Razor\Views\blogc\Index.cs
 C:\Users\serha\source\repos\COREDEMO\obj\Debug\net5.0\Razor\Views\Shared\partial1.cshtml.g.cs
 C:\Users\serha\source\repos\COREDEMO\obj\Debug\net5.0\Razor\Views\Shared\Partial2.cshtml.g.cs
 C:\Users\serha\source\repos\COREDEMO\obj\Debug\net5.0\Razor\Views\Shared\partial3.cshtml.g.cs
+C:\Users\serha\source\repos\COREDEMO\obj\Debug\net5.0\Razor\Views\blogc\blogreadall.cshtml.g.cs
+C:\Users\serha\source\repos\COREDEMO\obj\Debug\net5.0\Razor\Views\commentcontroller\partialaddcomment.cshtml.g.cs
+C:\Users\serha\source\repos\COREDEMO\obj\Debug\net5.0\Razor\Views\commentcontroller\commentlistbyblog.cshtml.g.cs
